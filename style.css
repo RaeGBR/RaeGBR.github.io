@@ -124,6 +124,16 @@ body {
     text-align: justify;
 }
 
+.header-intro a {
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.header-intro a:hover {
+    color: #004499;
+}
+
 .header-social-links {
     margin-top: 1rem;
 }
