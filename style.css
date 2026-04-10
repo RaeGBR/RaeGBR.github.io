@@ -25,7 +25,7 @@ body {
 }
 
 .nav-container {
-    max-width: 800px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 0 2rem;
     display: flex;
@@ -48,7 +48,7 @@ body {
 
 /* Main Container */
 .container {
-    max-width: 800px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 2rem;
 }
@@ -74,15 +74,27 @@ body {
 
 .header-image {
     flex-shrink: 0;
+    text-align: center;
+}
+
+.header-email {
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+}
+
+.header-email a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.header-email a:hover {
+    text-decoration: underline;
 }
 
 .header-image img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
+    width: 380px;
+    border-radius: 4px;
     object-fit: cover;
-    border: 4px solid #f0f0f0;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .name {
@@ -109,6 +121,7 @@ body {
     line-height: 1.7;
     color: #555;
     margin-bottom: 1.5rem;
+    text-align: justify;
 }
 
 .header-social-links {
@@ -331,6 +344,17 @@ body {
     text-decoration: underline;
 }
 
+.talk-link {
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.talk-link:hover {
+    color: #004499;
+    text-decoration: underline;
+}
+
 /* Talks */
 .talk-item {
     margin-bottom: 1.5rem;
@@ -459,8 +483,7 @@ body {
     }
 
     .header-image img {
-        width: 200px;
-        height: 200px;
+        width: 220px;
     }
 
     .header-two-columns {
